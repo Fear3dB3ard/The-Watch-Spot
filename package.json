@@ -1,0 +1,33 @@
+{
+  "name": "primul-proiect-de-grup",
+  "version": "2.0.0",
+  "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування \r додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
+  "homepage": "https://turbomatrixxxl.github.io/primul-proiect-de-grup/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /primul-proiect-de-grup/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbomatrixxxl/primul-proiect-de-grup.git"
+  },
+  "keywords": [],
+  "author": "Naramzoiu Radu Bogdan <turbomatrixxxl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turbomatrixxxl/primul-proiect-de-grup/issues"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "disable-scroll": "^0.6.0",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js"
+}
